@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/numbernumber"
+            style="@style/NumpadNumberTheme"
+            android:layout_height="38dp"
+            android:layout_width="fill_parent"/>
+
+    <View
+            android:layout_height="1dp"
+            android:background="#0099CC"
+            android:layout_width="fill_parent"/>
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/keyboardView">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/btn1"
+                    android:background="@drawable/numpad_button_firstrow"
+                    style="@style/NPadBtn1"
+                    android:text="@string/btn1"/>
+
+            <View style="@style/VerticalGridLine"/>
+
+            <Button
+                    android:id="@+id/btn2"
+                    android:background="@drawable/numpad_button_firstrow"
+                    style="@style/NPadBtn2"
+                    android:text="@string/btn2"/>
+
+            <View style="@style/VerticalGridLine"/>
+
+            <Button
+                    android:id="@+id/btn3"
+                    android:background="@drawable/numpad_button_firstrow"
+                    style="@style/NPadBtn3"
+                    android:text="@string/btn3"/>
+        </LinearLayout>
+
+        <View style="@style/HorizontalGridLine"/>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/btn4"
+                    android:background="@drawable/numpad_button"
+                    style="@style/NPadBtn4"
+                    android:text="@string/btn4"/>
+
+            <View style="@style/VerticalGridLine"/>
+
+            <Button
+                    android:id="@+id/btn5"
+                    android:background="@drawable/numpad_button"
+                    style="@style/NPadBtn5"
+                    android:text="@string/btn5"/>
+
+            <View style="@style/VerticalGridLine"/>
+
+            <Button
+                    android:id="@+id/btn6"
+                    android:background="@drawable/numpad_button"
+                    style="@style/NPadBtn6"
+                    android:text="@string/btn6"/>
+        </LinearLayout>
+
+        <View style="@style/HorizontalGridLine"/>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <Button
+                        android:id="@+id/btn7"
+                        android:background="@drawable/numpad_button"
+                        style="@style/NPadBtn7"
+                        android:text="@string/btn7"/>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="68dp"
+                        android:layout_marginTop="4dp"
+                        android:src="@drawable/asterisk"/>
+            </RelativeLayout>
+
+            <View style="@style/VerticalGridLine"/>
+
+            <Button
+                    android:id="@+id/btn8"
+                    android:background="@drawable/numpad_button"
+                    style="@style/NPadBtn8"
+                    android:text="@string/btn8"/>
+
+            <View style="@style/VerticalGridLine"/>
+
+
+            <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <Button
+                        android:id="@+id/btn9"
+                        android:background="@drawable/numpad_button"
+                        style="@style/NPadBtn9"
+                        android:text="@string/btn9"/>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="66dp"
+                        android:layout_marginTop="4dp"
+                        android:src="@drawable/sharp"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View style="@style/HorizontalGridLine"/>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ImageButton
+                    android:id="@+id/btnCanc"
+                    style="@style/NPadBtnCanc"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/delete"
+                    android:background="@drawable/numpad_button_lastrow"
+                    android:contentDescription="@string/btnCanc"/>
+
+            <View style="@style/VerticalGridLine"/>
+
+            <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <Button
+                        android:id="@+id/btnZero"
+                        style="@style/NPadBtnZero"
+                        android:background="@drawable/numpad_button_lastrow"
+                        android:text="@string/btnZero"/>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="68dp"
+                        android:layout_marginTop="4dp"
+                        android:src="@drawable/plus"/>
+            </RelativeLayout>
+
+            <View style="@style/VerticalGridLine"/>
+
+            <ImageButton
+                    android:id="@+id/btnCall"
+                    style="@style/NPadBtnCall"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/call"
+                    android:background="@drawable/numpad_button_lastrow"
+                    android:contentDescription="@string/btnCall"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,137 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="BaseTheme" parent="android:Theme.Light">
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="GridLine">
+        <item name="android:background">@color/grid</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="HorizontalGridLine" parent="GridLine">
+        <item name="android:layout_height">1.33dp</item>
+        <item name="android:layout_width">284dp</item>
+    </style>
+
+    <style name="VerticalGridLine" parent="GridLine">
+        <item name="android:layout_height">38.66dp</item>
+        <item name="android:layout_width">1.33dp</item>
+    </style>
+
+    <style name="NumpadNumberTheme" parent="BaseTheme">
+        <item name="android:background">@color/number_view</item>
+        <item name="android:textColor">@color/foreground</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="NumpadTheme" parent="BaseTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textColor">@color/foreground</item>
+        <item name="android:textSize">14pt</item>
+    </style>
+
+    <style name="NumpadFirstRow" parent="NumpadTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">106.66dp</item>
+        <item name="android:layout_height">58.66dp</item>
+    </style>
+
+    <style name="NumpadSecondRow" parent="NumpadTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">106.66dp</item>
+        <item name="android:layout_height">58.66dp</item>
+    </style>
+
+    <style name="NumpadThirdRow" parent="NumpadTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">106.66dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="NumpadFourthRow" parent="NumpadTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">106.66dp</item>
+        <item name="android:layout_height">61.33dp</item>
+    </style>
+
+    <style name="NPadBtn1" parent="NumpadFirstRow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">17.33dp</item>
+        <item name="android:layout_width">89.33dp</item>
+        <item name="android:paddingRight">10.66dp</item>
+    </style>
+
+    <style name="NPadBtn2" parent="NumpadFirstRow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">104dp</item>
+    </style>
+
+    <style name="NPadBtn3" parent="NumpadFirstRow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">17.33dp</item>
+        <item name="android:layout_width">89.33dp</item>
+        <item name="android:paddingLeft">10.66dp</item>
+    </style>
+
+    <style name="NPadBtn4" parent="NumpadSecondRow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">89.33dp</item>
+        <item name="android:paddingRight">10.66dp</item>
+        <item name="android:layout_marginLeft">17.33dp</item>
+    </style>
+
+    <style name="NPadBtn5" parent="NumpadSecondRow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">104dp</item>
+    </style>
+
+    <style name="NPadBtn6" parent="NumpadSecondRow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">89.33dp</item>
+        <item name="android:paddingLeft">10.66dp</item>
+        <item name="android:layout_marginRight">17.33dp</item>
+    </style>
+
+    <style name="NPadBtn7" parent="NumpadThirdRow">
+        <item name="android:layout_width">89.33dp</item>
+        <item name="android:paddingRight">10.66dp</item>
+        <item name="android:layout_marginLeft">17.33dp</item>
+    </style>
+
+    <style name="NPadBtn8" parent="NumpadThirdRow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">104dp</item>
+    </style>
+
+    <style name="NPadBtn9" parent="NumpadThirdRow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">89.33dp</item>
+        <item name="android:paddingLeft">10.66dp</item>
+        <item name="android:layout_marginRight">17.33dp</item>
+    </style>
+
+    <style name="NPadBtnCanc" parent="NumpadFourthRow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">89.33dp</item>
+        <item name="android:paddingRight">10.66dp</item>
+        <item name="android:layout_marginLeft">17.33dp</item>
+    </style>
+
+    <style name="NPadBtnZero" parent="NumpadFourthRow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">104dp</item>
+    </style>
+
+    <style name="NPadBtnCall" parent="NumpadFourthRow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">89.33dp</item>
+        <item name="android:paddingLeft">10.66dp</item>
+        <item name="android:layout_marginRight">17.33dp</item>
+    </style>
+
+</resources>

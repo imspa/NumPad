@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- used for text color -->
+    <color name="foreground">#FFFFFF</color>
+    <color name="background">#000000</color>
+
+    <!-- color of the separator line -->
+    <color name="grid">#58585a</color>
+
+    <!-- background color of the number view -->
+    <color name="number_view">#58585a</color>
+</resources>
